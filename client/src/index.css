@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.spinner {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.input-feild {
+  background-color: #070c11;
+  display: flex;
+  height: 2.25rem;
+  width: 100%;
+  padding: 0.25rem 0.75rem;
+  font-size: 1rem;
+  box-shadow: #000000;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #64748b;
+  border-radius: 0.4rem;
+  ;
+}
+
+.input-feild-extra {
+  height: 100px;
+  resize: none;
+}
+
+.input-feild:focus {
+  outline: none;
+}

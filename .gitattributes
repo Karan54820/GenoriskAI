@@ -1,0 +1,5 @@
+client/* filter=lfs diff=lfs merge=lfs -text
+ml_model/* filter=lfs diff=lfs merge=lfs -text
+node_modules/* filter=lfs diff=lfs merge=lfs -text
+ml_model/model/disease_risk_model_xgboost.joblib filter=lfs diff=lfs merge=lfs -text
+ml_model/VCF_DATA/D.AD1.vcf filter=lfs diff=lfs merge=lfs -text
